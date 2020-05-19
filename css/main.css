@@ -1,1 +1,64 @@
 /* php-google-faq */
+/* GENERAL SETTINGS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  color: #606469;
+}
+/* HEADER */
+header {
+  border-bottom: 1px solid #CBCBCB;
+  font-size: 17px;
+  font-weight: 600;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+}
+.logo_span {
+  margin-left: 5px;
+  font-size: 22px;
+}
+.row nav {
+  display: flex;
+  justify-content: space-between;
+}
+.row nav ul {
+  display: flex;
+}
+.row nav ul li {
+  list-style: none;
+  cursor: pointer;
+  padding: 5px 20px;
+}
+.row nav ul li:nth-child(4) {
+  list-style: none;
+  cursor: pointer;
+  padding: 5px 40px 5px 20px;
+}
+.row nav ul li:last-child {
+  list-style: none;
+  cursor: pointer;
+  padding: 5px 0;
+}
+.li_active {
+  border-bottom: 2px solid blue;
+  color: blue;
+}
+.account {
+  margin-right: 40px;
+  font-size: 20px;
+  cursor: pointer;
+}
+/* MAIN */
+main {
+  width: 80%;
+  margin: 50px auto;
+}
+main ul {
+  list-style: none;
+}

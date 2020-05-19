@@ -59,12 +59,10 @@
 
        <ul>
           <?php foreach ( $faqs as $key => $faq ) { ?>
-           <li>
              <?php foreach ( $faq as $data ) { ?>
-               <?php echo $faq['question'] ?> <br>
-               <?php echo $faq['answer'] ?> <br>
+               <li class="question"><?php echo $faq['question'] ?> <br></li>
+               <li class="answer"><?php echo $faq['answer'] ?> <br></li>    
              <?php } ?>
-           </li>
           <?php } ?>
        </ul>
 

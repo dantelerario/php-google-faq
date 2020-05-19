@@ -56,9 +56,18 @@ header {
 }
 /* MAIN */
 main {
-  width: 80%;
+  width: 75%;
   margin: 50px auto;
 }
 main ul {
   list-style: none;
+}
+.question {
+  font-size: 34px;
+  font-weight: 700;
+  padding: 40px 0;
+}
+.answer {
+  font-size: 18px;
+  font-weight: 500;
 }

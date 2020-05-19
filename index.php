@@ -37,8 +37,8 @@
         <?php foreach ( $faqs as $key => $faq ) { ?>
          <li>
            <?php foreach ( $faq as $data ) { ?>
-             <?php echo $data['question'] ?>
-             <?php echo $data['answer'] ?>
+             <?php echo $faq['question'] ?> <br>
+             <?php echo $faq['answer'] ?> <br>
            <?php } ?>
          </li>
         <?php } ?>
